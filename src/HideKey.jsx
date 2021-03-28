@@ -3,6 +3,7 @@ import axios from "axios";
 
 const API_KEY = process.env.REACT_APP_API_KEY;
 console.log(API_KEY);
+console.log(process.env);
 const API_URL = `https://newsapi.org/v2/everything?q=ai&apiKey=${API_KEY}`;
 
 class HideKey extends React.Component {
